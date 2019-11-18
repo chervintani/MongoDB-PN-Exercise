@@ -5,7 +5,7 @@ const Schema = mongoose.Schema;
 let RiderSchema = new Schema({
     firstName: {type: String, required: true},
     lastName: {type: String, required: true},
-    age: {type: Date, required: true},
+    age: {type: String, required: true},
     score: {type: [Number], required: false},
 });
 
